@@ -1,6 +1,6 @@
 # WebDevProject
 Welcome to our school web development project. 
-This we'll be an on going project while we learn more things 
+This will be an on going project while we learn more things 
 we'll be updating our website and so on.
 
 1. For our first version we need to use HTML AND CSS. 
