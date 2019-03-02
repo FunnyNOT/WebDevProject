@@ -142,6 +142,10 @@ header a:hover{
  
   
 }
+#servImg .EditImg img {
+	width:100px;
+}
+
 
 /* Sidebar */
 aside#sidebar{
