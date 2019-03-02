@@ -137,6 +137,11 @@ header a:hover{
 #services .epikinonia img{
   width:100px;
 }
+#services .epikinonia li{
+ text-align: center;
+ 
+  
+}
 
 /* Sidebar */
 aside#sidebar{
