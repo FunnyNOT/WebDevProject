@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Software Developement Team">
+	  <meta name="keywords" content="software design, affordable software design, professional software design">  	
+    <title>Software Developement Team | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Software</span> Developement GitGuide</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="biography.html">ΒΙΟΓΡΑΦΙΚΟ</a></li>
+			<li><a href="communication.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+			<li class="current"><a href="GitGuide.html">Οδηγός του Git</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Οδηγός του Git</h1>
+
+          <ul id="services">
+
+          <ul id="liststyle">
+		  <p>
+			<h2>Εντολές που δόθηκαν στο git bash</h2>
+			</p>
+            <li>
+              <h3>Σύνδεση του προφίλ στο Github με το Git</h3>
+              <p>
+				git config --global user.name "Enter your user name here"</p>
+				<p>git config --global user.email "Enter your email here"</p>
+			  
+						  
+            </li>
+             <li>
+              <h3>Για να κάνουμε clone τα αρχεία απο το Github</h3>
+              <p>git clone "Enter the clone link here"</p>			   
+
+            </li>
+            <li>
+              <h3>Για να τραβήξουμε τυχόν αλλαγές του κώδικα απο το Github</h3>
+              <p>git pull or git pull origin branch_name</p>
+						
+            </li>
+			<li>
+              <h3>Για να ανεβάσουμε τυχόν αλλαγές του κώδικα στο Github</h3>
+              <p>git add file_name(Ώστε να ξέρει το Git σε ποιο ή ποια αρχεία αναφερόμαστε</p>
+			  <p>git status (Ώστε να τσεκάρουμε αν έχει/έχουν πρασινίσει τα αρχεία που κάναμε add πριν</p>
+			  <p>git commit -m "Γράψτε έναν τίτλο ή περιγραφή της αλλαγής"</p>
+			  <p>git push origin branch_name or git push</p>
+						
+            </li>
+			<li>
+              <h3>Για να διαγράψουμε αρχεία </h3>
+              <p>git rm "file_name" Ώστε να γίνει remove απο το local repository </p>
+			  <p>git commit -m "Γράψτε έναν τίτλο ή περιγραφή της αλλαγής"</p>
+			  <p>git push origin branch_name or git push | Ώστε να ενημερωθεί για τις αλλαγές το github</p>
+						
+            </li>
+			<li>
+              <h3>Για την δημιουργία ενός branch</h3>
+              <p>git branch  branch_name</p>
+			  <p>git checkout branch_name
+						
+            </li>
+			<li>
+              <h3>Για την διαγραφή ενος branch</h3>
+              <p>git branch -D branch_name</p>
+						
+            </li>
+			<li>
+              <h3>Για να κάνουμε merge δυο branches</h3>
+              <p>git checkout branch_name | Ώστε να πάμε μέσω του git bash στο branch που θέλουμε να γίνει η συγχώνευση</p>
+			  <p>git merge branch_name | Ώστε να γίνει merge το branch που θα γράψουμε με αυτό που βρισκόμαστε μέσω του git </p>
+			  
+			  </li>
+			  <li>
+				<h3>Για την επαναφορά ενός merge</h3>
+				<p>git reset --merge</p>
+			  </li>
+          </ul>
+        </article>
+
+        
+      </div>
+    </section>
+
+    <footer>
+
+      <p>Software Developement Team &copy; 2019</p>
+
+    </footer>
+  </body>
+</html>
